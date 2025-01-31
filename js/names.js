@@ -8,3 +8,5 @@ function createPerson(firstName, lastName) {
 
 const person = createPerson("Alex", "Mihov");
 console.log(person);
+
+module.exports = createPerson;
