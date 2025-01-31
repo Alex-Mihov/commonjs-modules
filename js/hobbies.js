@@ -5,3 +5,5 @@ function createHobby(hobbyOne, hobbyTwo, hobbyThree) {
 
 const hobbies = createHobby("Calcio", "Viaggare", "Leggere")
 console.log(hobbies);
+
+module.exports = createHobby;
